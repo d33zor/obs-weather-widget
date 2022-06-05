@@ -48,9 +48,8 @@ const Location = () => {
             <div className={styles.Time}>
               {new Date(
                 time + ((data.timezone || 0) + new Date().getTimezoneOffset() * 60) * 1000
-              ).toLocaleTimeString([], {
-                hour: 'numeric',
-                minute: 'numeric',
+              ).toLocaleTimeString('pl-PL', {
+                timeStyle: 'short',
               })}
             </div>
           </div>
