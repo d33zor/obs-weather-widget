@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: 'imgix',
-    path: 'http://openweathermap.org/img/wn/',
+    path: 'https://openweathermap.org/img/wn/',
   },
 };
 
