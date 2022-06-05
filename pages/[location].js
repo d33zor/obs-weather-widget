@@ -47,7 +47,8 @@ const Location = () => {
             <Image src={`${data.weather[0].icon}@2x.png`} width={82} height={82} alt='icon' />
             <div className={styles.Time}>
               {new Date(time + ((data.timezone || 0) - 7200) * 1000).toLocaleTimeString('pl-PL', {
-                timeStyle: 'short',
+                hour: '2-digit',
+                minute: '2-digit',
               })}
             </div>
           </div>
