@@ -1,6 +1,7 @@
 .Wrapper {
   display: flex;
   filter: drop-shadow(0 0 2px black);
+  font-weight: bold;
 }
 .Info {
   display: flex;
@@ -13,17 +14,15 @@
   background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 .Temperature {
   font-size: 3rem;
-  font-weight: bold;
   background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .Time {
-  font-weight: bold;
   background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,5 +33,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 }
