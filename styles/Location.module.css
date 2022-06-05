@@ -1,6 +1,6 @@
 .Wrapper {
   display: flex;
-  filter: drop-shadow(0 0 20px #040211);
+  filter: drop-shadow(0 0 2px black);
 }
 .Info {
   display: flex;
