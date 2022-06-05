@@ -1,0 +1,38 @@
+.Wrapper {
+  display: flex;
+  filter: drop-shadow(0 0 20px #040211);
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+}
+.Location {
+  font-size: 1.25rem;
+  background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+.Temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Time {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f8f7fe, #c9c3f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 20px #040211);
+}
+.Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
